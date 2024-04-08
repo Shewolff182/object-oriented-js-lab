@@ -9,6 +9,10 @@ function Flower(color, petals, smell){
     this.smellsPretty = smell;
 }
 
+let flower1 = new Flower("purple", "oblong", true );
+let flower2 = new Flower("red", "round", true );
+let flower3 = new Flower("white", "oval", false );
+
 
 
 // Question 2: 
@@ -24,6 +28,7 @@ console.log(myOtherContact.name);
   
 
 // What would be logged to the console when this code is run?
+// Everest
 
 
 
@@ -38,7 +43,8 @@ function Animal(species, noise) {
   }
 }
 // How would you create an instance of an Animal?
-
+let animal1 = new Animal("Canine", "bark");
+console.log(animal1);
 
 
 
@@ -51,9 +57,15 @@ function Animal(species, noise) {
 // An attribute to define if the task is done.
 // A method to call when the task is done.
 
+function ToDoList(description, attribute, method) {
+  this.taskDescription = description;
+  this.taskIsDone
+  this.method = method;
+}
+
 // Create 3 objects with the constructor function
 
-
+let item1 = new ToDoList("")
 
 
 //Question 5:
